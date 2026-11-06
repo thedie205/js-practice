@@ -1,0 +1,13 @@
+{
+  "name": "js-practice",
+  "version": "1.0.0",
+  "description": "JavaScript practice with Vitest",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
