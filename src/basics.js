@@ -5,6 +5,7 @@
 export function evenOrOdd(n) {
   // 'Even' للزوجي و 'Odd' للفردي (انتبه للسالب والصفر)
   // TODO
+  return n % 2 === 0 && n > 0 ? 'Even' : 'Odd';
 }
 
 export function positiveSum(arr) {
